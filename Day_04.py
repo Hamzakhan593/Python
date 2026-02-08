@@ -2,8 +2,11 @@
 
 x = ("apple", "banana", "mango")
 print(x)
+# from tuple to list
 y = list(x)
+print(type(y))
 y.append("kuch or")
+print(y)
 x = tuple(y)
 print(x)
 
@@ -20,11 +23,7 @@ print(m)
 
 
 
-
-
-
-
-# set
+# set --->unique elements
 myset = {1,2,3,4}
 print(myset)
 myset.add("hamza")
@@ -46,10 +45,10 @@ print(set3)
 # Python has a set of built-in methods that you can use on sets.
 
 # Method	Shortcut	Description
-# add()	 	Adds an element to the set
-# clear()	 	Removes all the elements from the set
-# copy()	 	Returns a copy of the set
-# difference()	-	Returns a set containing the difference between two or more sets
+# add()	 -	Adds an element to the set
+# clear() - Removes all the elements from the set
+# copy() -  Returns a copy of the set
+# difference() - Returns a set containing the difference between two or more sets
 # difference_update()	-=	Removes the items in this set that are also included in another, specified set
 # discard()	 	Remove the specified item
 # intersection()	&	Returns a set, that is the intersection of two other sets
@@ -135,10 +134,10 @@ print(ydict)
 
 
 #takiing input
-day_str = input("enter day --> : ")
-day = int(day_str)
+input_day = input("Enter Days: ")
+day = int(input_day)
 
-#print(f"your name is: {day}")
+# print(f"your name is: {day}")
 
 # match statement
 match day:

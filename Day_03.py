@@ -29,12 +29,12 @@ newlist = ["hamza", "jahanzeb", "shahzeb"]
 newlist[0] += " khan"
 print(newlist)
 newlist[0] = "hamza khan"
-
+print(newlist)
 newlist[0:2] = ["hamzachange", "jahanzebchange"]
 print(newlist)
 
 
-#inserting value at specified location i the list
+#inserting value at specified location in the list
 newlist.insert(2, "insertingvalue")
 print(newlist)
 
@@ -76,8 +76,10 @@ while i < len(extendlist):
     print(extendlist[i])
     i = i + 1
 
+#sorting list
 extendlist.sort()
 print(extendlist)
+#sorting in reverse order
 extendlist.sort(reverse=True)
 print(extendlist)
 
@@ -105,6 +107,9 @@ print(copylist3)
 # method three ---> extend() keyy word
 
 
+numArr = [1,2,3,4,5,6,7]
+for i in range(len(numArr)):
+    print(numArr[i])
 
 
 # Method	Description
