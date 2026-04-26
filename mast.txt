@@ -1,0 +1,3 @@
+i am hamza khan.
+i am enjoying to learn pythoong programming language
+today i ll learn file handling in python programming langugae.
